@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: black;
+  /* border-radius: 50px; */
+  padding:20px;
+}
+header nav ul li{
+  display: inline-block;
+  margin-left: 20px;
+}
+header img{
+  width: 80px;
+}
+header nav{
+ float: right;
+
+ margin-top: 20px;
+}
+header nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.first{
+  background-color: olive;
+  color: white;
+  min-height: 50vh;
+  text-align: center;
+  padding: 50px;
+}
+.first button{
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: rgb(160, 120, 120);
+  font-size: 22px;
+  padding: 20px;
+  border-radius: 100px;
+  margin-top: 20px;
+}
+.first button:hover{
+  cursor: pointer;
+}
+.bannerSingleimg{
+  color: black;
+  min-height: 50vh;
+  text-align: center;
+  padding: 50px;
+  background-image: url(../media/pexels-yelena-wegel-17344811.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* p3.html */
+.morecolors{
+  background: linear-gradient(15deg,rgb(196, 196, 37),rgb(209, 35, 64));
+  color: rgba(0, 0, 0, 0.726);
+  min-height: 50vh;
+  text-align: center;
+  padding: 50px; 
+}
+.morecolors button{
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: rgb(160, 120, 120);
+  font-size: 22px;
+  padding: 20px;
+  border-radius: 100px;
+  margin-top: 20px;
+}
+
