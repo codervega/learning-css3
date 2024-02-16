@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.Container{
+  display: flex;
+
+   /*flex-direction: row;
+  flex-direction: row-reverse;
+  flex-direction: column;
+  flex-direction: column-reverse; */
+
+  /* flex-wrap: nowrap;
+  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
+  flex-direction: row;
+  gap: 10px; */
+  flex-flow: row wrap;
+  gap: 10px;
+}
+.Container>.item{
+  background-color: green;
+  padding: 20px;
+  width: 29%;
+}
+
+/* p3.html */
+.container1
+{
+  justify-content: center; 
+  justify-content: end;
+  justify-content: start;
+  justify-content: flex-end;
+  justify-content: flex-start;
+  justify-content: space-around;
+  justify-content: space-between;
+  justify-content: space-evenly;
+}

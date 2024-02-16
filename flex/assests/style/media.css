@@ -1,0 +1,17 @@
+/* mobile version */
+@media(max-width:768px)
+{
+  .Container{
+    flex-flow: column;
+  }
+  .Container>.item{
+    width: 100%;
+  }
+}
+/* tablet version */
+@media(min-width:769px) and (max-width:1000px)
+{
+  .Container>.item{
+    width: 43%;
+  }
+}
